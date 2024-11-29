@@ -46,6 +46,12 @@ This repository contains the solutions to LeetCode challenges created by the OBS
 
 4. Challenge Four: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 5. Challenge Five: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+   * Steps
+        * Step 1: A Dummy node is introduced to simplify the logic for appending nodes to the merged list. It helps handle edge cases like empty input lists.
+        * Step 2: A traversal logic is used to detail the merge node from both lists one by one based on their values
+        * Step 3: If there are leftover nodes -> leftover nodes from either lists are appended once one list is exhausted 
+        * Step 4: Return the result -> the logic skips the dummy node to return the actual merged list.
+  
 
 
 ### Built With
