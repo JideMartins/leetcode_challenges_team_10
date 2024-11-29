@@ -34,7 +34,7 @@ This repository contains the solutions to LeetCode challenges created by the OBS
 5. Challenge Five: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 
-### Stack
+### Built With
 ![Static Badge](https://img.shields.io/badge/java-orange?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Maven-black?style=for-the-badge&logo=apachemaven)
 
