@@ -28,6 +28,13 @@ This repository contains the solutions to LeetCode challenges created by the OBS
 
 ### List of Challenges
 1. Challenge One: [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/).
+    * Steps
+      * Step 1: Initialize the necessary variables and array (salary array, max, min, sum)
+      * Step 2: Loop through array, updating the variables max, min, and sum as the loop continues
+      * Step 3: Subtract max and min from sum to exclude minumum and maximum salary
+      * Step 4: Divide the sum by the length of the array without max and min (salary.length - 2)
+      * Step 5: Return the average
+
 2. Challenge Two: [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/).
 
     * Two-pointer Method
@@ -45,6 +52,13 @@ This repository contains the solutions to LeetCode challenges created by the OBS
         * Step 4: Return the missing number
 
 4. Challenge Four: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+    * Steps
+      * Step 1: Initialize variables
+      * Step 2: Loop through lists, adding digits and carry over
+      * Step 3: Create new node for each sum 
+      * Step 4: Set carryOver to sum / 10 to update it 
+      * Step 5: Return the result list 
+
 5. Challenge Five: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
    * Steps
         * Step 1: A Dummy node is introduced to simplify the logic for appending nodes to the merged list. It helps handle edge cases like empty input lists.
